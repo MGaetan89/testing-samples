@@ -9,7 +9,6 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.robolectric.annotation.LooperMode
 
 /**
  * A test using the androidx.test unified API, which can execute on an Android device or locally using Robolectric.

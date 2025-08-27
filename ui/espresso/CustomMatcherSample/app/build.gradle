@@ -62,7 +62,6 @@ dependencies {
     androidTestImplementation "androidx.test.ext:junit:" + rootProject.extJUnitVersion;
     androidTestImplementation "androidx.test:runner:" + rootProject.runnerVersion;
     androidTestImplementation "androidx.test.espresso:espresso-core:" + rootProject.espressoVersion;
-    androidTestImplementation "org.robolectric:annotations:" + rootProject.robolectricVersion;
 
     testImplementation "androidx.test:core:" + rootProject.coreVersion;
     testImplementation "androidx.test.ext:junit:" + rootProject.extJUnitVersion;

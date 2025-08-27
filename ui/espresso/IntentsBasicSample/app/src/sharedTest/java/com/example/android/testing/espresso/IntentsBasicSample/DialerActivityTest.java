@@ -35,7 +35,6 @@ import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static androidx.test.ext.truth.content.IntentSubject.assertThat;
 import static org.hamcrest.Matchers.not;
 import static org.hamcrest.core.AllOf.allOf;
-import static org.robolectric.annotation.TextLayoutMode.Mode.REALISTIC;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -52,7 +51,6 @@ import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.robolectric.annotation.TextLayoutMode;
 
 @RunWith(AndroidJUnit4.class)
 @LargeTest

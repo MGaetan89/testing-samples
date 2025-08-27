@@ -79,5 +79,4 @@ dependencies {
     androidTestImplementation "androidx.test.espresso:espresso-core:" + rootProject.espressoVersion
     androidTestImplementation "androidx.fragment:fragment-testing:" + rootProject.androidxFragmentVersion
     androidTestImplementation "com.google.truth:truth:" + rootProject.truthVersion
-    androidTestImplementation "org.robolectric:annotations:" + rootProject.robolectricVersion
 }

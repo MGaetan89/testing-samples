@@ -36,8 +36,6 @@ import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.robolectric.annotation.LooperMode;
-import org.robolectric.annotation.TextLayoutMode;
 
 /**
  * Tests for {@link MainActivity} showcasing the use of custom matchers (see
@@ -45,10 +43,6 @@ import org.robolectric.annotation.TextLayoutMode;
  */
 @RunWith(AndroidJUnit4.class)
 @LargeTest
-// Configure Robolectric to use the more realistic text layout and threading model.
-// These annotations can be removed once this is default behavior in Robolectric
-@TextLayoutMode(TextLayoutMode.Mode.REALISTIC)
-@LooperMode(LooperMode.Mode.PAUSED)
 public class HintMatchersTest {
 
     private static final String INVALID_STRING_TO_BE_TYPED = "Earl Grey";
