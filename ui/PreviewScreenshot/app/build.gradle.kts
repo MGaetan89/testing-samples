@@ -26,7 +26,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.compose.previewscreenshot"
-        minSdk = 24
+        minSdkVersion = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
