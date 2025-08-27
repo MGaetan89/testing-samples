@@ -19,7 +19,7 @@ androidxCompatVersion="1.5.1"           # ANDROIDX_COMPAT_VERSION
 androidxCoreVersion="1.9.0"             # ANDROIDX_CORE_VERSION
 androidxFragmentVersion="1.5.3"         # ANDROIDX_FRAGMENT_VERSION
 androidxRecyclerVersion="1.2.1"         # ANDROIDX_RECYCLERVIEW_VERSION
-guavaVersion="31.1-android"           # GUAVA_VERSION
+guavaVersion="31.1-android"             # GUAVA_VERSION
 truthVersion="1.1.3"                    # TRUTH_VERSION
 runnerVersion="1.6.1"           # RUNNER_VERSION
 monitorVersion="1.7.1"          # MONITOR_VERSION
@@ -30,8 +30,8 @@ coreVersion="1.6.1"             # CORE_VERSION
 extJUnitVersion="1.2.1"         # ANDROIDX_JUNIT_VERSION
 extTruthVersion="1.6.0"         # ANDROIDX_TRUTH_VERSION
 espressoVersion="3.6.1"         # ESPRESSO_VERSION
-espressoDeviceVersion="1.0.1"  # ESPRESSO_DEVICE_VERSION
-robolectricVersion="4.13"
+espressoDeviceVersion="1.0.1"   # ESPRESSO_DEVICE_VERSION
+robolectricVersion="4.16"
 uiAutomatorVersion="2.3.0"              # UIAUTOMATOR_VERSION
 
 for p in $(cat projects.conf); do
